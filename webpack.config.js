@@ -6,14 +6,14 @@ var RemoveWebpackPlugin = require('remove-webpack-plugin');
 module.exports = {
     devtool: 'source-map',
 	entry: {
-		index: './src/index.js'
+		index: './client/src/index.js'
 	},
 	output: {
-		path: './dist',
+		path: './client/dist',
 		filename: 'js/[name].js'
 	},
 	plugins: [
-		new RemoveWebpackPlugin('./dist'),
+		new RemoveWebpackPlugin('./client/dist'),
         new webpack.NoErrorsPlugin(),
         new ExtractTextPlugin("styles.css", {})
     ],

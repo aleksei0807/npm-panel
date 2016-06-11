@@ -1,13 +1,14 @@
 {
   "name": "npm-panel",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "npm panel",
   "main": "index.html",
   "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV='production' webpack",
     "build-dev": "NODE_ENV='development' webpack",
-    "watch": "NODE_ENV='development' webpack --watch"
+    "watch": "NODE_ENV='development' webpack --watch",
+	"start": "node server/bin/www"
   },
   "repository": {
     "type": "git",
@@ -23,12 +24,18 @@
   ],
   "author": "Aleksei Schurak",
   "license": "MIT",
+  "bin": {
+    "npm-panel": "./server/bin/www"
+  },
   "dependencies": {
     "classnames": "^2.2.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
     "hyphenation.en-us": "^0.2.1",
     "hypher": "^0.2.4",
     "react": "^15.0.1",
-    "react-dom": "^15.0.1"
+    "react-dom": "^15.0.1",
+    "winston": "^2.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.7.7",
