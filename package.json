@@ -1,6 +1,6 @@
 {
   "name": "npm-panel",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "npm panel",
   "main": "index.html",
   "scripts": {
