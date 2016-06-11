@@ -1,21 +1,25 @@
 {
-  "name": "react-frontend-boilerplate",
+  "name": "npm-panel",
   "version": "0.0.1",
-  "description": "React frontend boilerplate",
+  "description": "npm panel",
   "main": "index.html",
   "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV='production' webpack",
     "build-dev": "NODE_ENV='development' webpack",
     "watch": "NODE_ENV='development' webpack --watch"
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlab.guava.by/aleksei/test-task.git"
+    "url": "git+https://github.com/aleksei0807/npm-panel.git"
   },
   "keywords": [
-	"react",
-	"frontend",
-	"boilerplate"
+    "npm",
+    "panel",
+    "ui",
+    "control",
+    "gui",
+    "package"
   ],
   "author": "Aleksei Schurak",
   "license": "MIT",

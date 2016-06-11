@@ -1,1 +1,1 @@
-# React Frontend Boilerplate
+# Npm Panel
