@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './index.styl';
 
-export default class App extends Component {
+export default class Home extends Component {
     render() {
         return (
-            <div className="app">
-				Npm Panel
+            <div className="home">
+				home page
 			</div>
         );
     }
