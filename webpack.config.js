@@ -13,7 +13,7 @@ module.exports = {
 		filename: 'js/[name].js'
 	},
 	plugins: [
-		new RemoveWebpackPlugin('./client/dist'),
+		new RemoveWebpackPlugin('./client/dist', 'hide'),
         new webpack.NoErrorsPlugin(),
         new ExtractTextPlugin("styles.css", {})
     ],
