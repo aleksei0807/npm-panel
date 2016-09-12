@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route } from 'react-router';
 import GeneralContainer from './containers/GeneralContainer';
-import Home from './components/Home';
-import Projects from './components/Projects';
-import Global from './components/Global';
+import Home from './containers/Home';
+import Projects from './containers/Projects';
+import Global from './containers/Global';
 
 export default (
 	<Route component={GeneralContainer}>
