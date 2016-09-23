@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('../index.js');
+var app = require('../lib/index.js');
 var debug = require('debug')('npm-panel:server');
 var http = require('http');
 var log = require('../libs/log')(module);
